@@ -13,8 +13,8 @@
 
 绝大多数web平台都需要包含以下模块
 
-- [前端页面](front/README.md)
-- [服务端](server/README.md)
+- [前端页面](webBuild/front/README.md)
+- [服务端](webBuild/server/README.md)
 - 数据存储
 - 日志
 - 告警监控
