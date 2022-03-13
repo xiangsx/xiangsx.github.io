@@ -1,0 +1,27 @@
+{
+  "name": "xiangsx.github.io",
+  "version": "1.0.0",
+  "description": "记录本人的一些技术积累",
+  "main": "toc.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve docs",
+    "toc": "node toc.js docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangsx/xiangsx.github.io.git"
+  },
+  "author": "xiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiangsx/xiangsx.github.io/issues"
+  },
+  "homepage": "https://github.com/xiangsx/xiangsx.github.io#readme",
+  "devDependencies": {
+    "docsify": "^4.12.2",
+    "markdown-toc": "^1.2.0"
+  }
+}

@@ -24,13 +24,14 @@ function listFile(dir) {
 }
 
 listFile(inputDir);
-console.log(list.join('\n'));
 
 for (const filePath of list) {
     if (path.extname(filePath).match(/\.md/i)) {
         child_process.exec(`markdown-toc -i ${filePath}`, (err,...rest) => {
             if (err) {
-                console.error(err, rest);
+                console.error(`${filePath} [failed]`);
+            } else {
+                console.error(`${filePath} [successful]`);
             }
         });
     }
